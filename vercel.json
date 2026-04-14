@@ -1,0 +1,8 @@
+{
+  "crons": [
+    { "path": "/api/morning-top3", "schedule": "30 1 * * *" },
+    { "path": "/api/morning-list", "schedule": "35 1 * * *" },
+    { "path": "/api/afternoon",    "schedule": "0 9 * * *"  },
+    { "path": "/api/night",        "schedule": "0 14 * * *" }
+  ]
+}
