@@ -4,7 +4,7 @@ export default async function handler(req, res) {
 }
 
 async function triggerPush(type) {
-  await fetch('https://j2cmgf9cpf.coze.site/api/schedule-push', {
+  await fetch('https://8dg2k4pmmh.coze.site/api/schedule-push', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ type }),
